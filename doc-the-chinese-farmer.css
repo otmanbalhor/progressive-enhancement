@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(179, 216, 249);
+    font-family: sans-serif;
+    color: #3b3838;
+}
+p
+{
+    line-height: 1.6;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #007bfff3;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color:  rgb(0, 204, 255)
+}
+a:visited
+{
+    color: blueviolet;  
+}
+body
+{
+    background-image: URL('fond_bleu.jpg');
+    font-style: italic;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: bottom right;
+    
+}
+
+blockquote
+{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border-left: 3px solid firebrick;
+    border-right: 2px solid #333;
+    border-bottom: 2px solid #333;
+    border-top: 2px solid #333;
+    font-size: 160%;
+    background-color: rgb(250, 240, 240);
+    padding-left:30px;
+}
+.quotation
+{
+    font-style: italic;
+}
+q
+{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px; 
+}
+.good
+{
+    color: green;
+    text-transform:uppercase;
+}
+
+.bad
+{
+    color: red;
+    text-transform:uppercase;
+}
+
+h1
+{
+    font-style: normal;
+    background-color: rgb(255, 238, 2);
+}
+p
+{
+    font-style: normal;
+}
+.farmer
+{
+    border-left: px solid rgb(61, 61, 184) ;
+}
+.vill
+{
+    border-left: 3px solid rgb(204, 19, 19) ;
+}
+
+tr:nth-child(even)
+{
+    background-color: gray;
+}
+
+tr:nth-child(odd)
+{
+    background-color: white;
+}
+
+ul li:nth-child(1)
+{
+    background-image: URL('bien.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 20px;
+}
+
+ul li:nth-child(2)
+{
+    background-image: URL('mal.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 20px;
+}
+
+ul li:nth-child(3)
+{
+    background-image: URL('chat.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 20px;
+}
